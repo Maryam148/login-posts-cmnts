@@ -1,0 +1,27 @@
+body{
+  background-color: gray;
+}
+button.edit, button.save, button.create{
+  background-color: green;
+  color: white;
+  border-radius: 8px;
+  padding: 5px;
+}
+button.del, button.cancel{
+  background-color: rgb(168, 13, 39);
+  color: white;
+  border-radius: 8px;
+  padding: 5px;
+}
+button.ok{
+  background-color: rgb(92, 122, 204);
+  color: white;
+  border-radius: 8px;
+  padding: 5px;
+}
+div{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
